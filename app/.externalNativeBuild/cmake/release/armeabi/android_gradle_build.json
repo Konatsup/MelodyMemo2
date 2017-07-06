@@ -1,0 +1,132 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"arraySum-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "arraySum",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target arraySum",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG       -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/arraySum.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi/libarraySum.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"calc-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "calc",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target calc",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG       -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/calc.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi/libcalc.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dnative_lib_EXPORTS -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "11499953367130847980"
+		},
+		"pitch-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "pitch",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target pitch",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dpitch_EXPORTS -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/pitch.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/cmake/release/obj/armeabi/libpitch.so",
+			"toolchain" : "11499953367130847980"
+		},
+		"testC-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "testC",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target testC",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm   -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG     -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/testC.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi/libtestC.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"testD-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "testD",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi --target testD",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm   -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG     -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/testD.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/armeabi/libtestD.a",
+			"toolchain" : "11499953367130847980"
+		}
+	},
+	"toolchains" : 
+	{
+		"11499953367130847980" : 
+		{
+			"cCompilerExecutable" : "/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

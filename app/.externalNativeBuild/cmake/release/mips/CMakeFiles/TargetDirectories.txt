@@ -1,0 +1,8 @@
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/arraySum.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/pitch.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/calc.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/testC.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/testD.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir

@@ -1,0 +1,13 @@
+# ninja log v5
+0	211	0	CMakeFiles/pitch.dir/src/main/jni/pitch.c.o	cf6b731e93a3518a
+211	284	0	../../../../build/intermediates/cmake/debug/obj/mips/libpitch.so	fa9da61deadf506e
+1	100	0	CMakeFiles/calc.dir/src/main/jni/calc.c.o	5b8fd44cae688d7
+1	124	0	CMakeFiles/arraySum.dir/src/main/jni/arraySum.c.o	945a5220db040121
+100	168	0	libcalc.a	4e99317dea879a8e
+124	168	0	libarraySum.a	c695237e70c52c50
+1	306	0	CMakeFiles/testC.dir/src/main/cpp/testC.cpp.o	535b169cdfe7f5b9
+1	307	0	CMakeFiles/testD.dir/src/main/cpp/testD.cpp.o	d8bd13929ff6eefa
+306	332	0	libtestC.a	f4c07f991bca52e3
+307	332	0	libtestD.a	b986252c04b2b48b
+332	498	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	79408dc600141d64
+498	713	0	../../../../build/intermediates/cmake/debug/obj/mips/libnative-lib.so	f929918d836fb280

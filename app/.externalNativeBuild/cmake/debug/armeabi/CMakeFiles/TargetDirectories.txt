@@ -1,0 +1,8 @@
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/arraySum.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/pitch.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/calc.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/testC.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/testD.dir
+/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/native-lib.dir

@@ -1,0 +1,132 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"arraySum-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "arraySum",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target arraySum",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/arraySum.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64/libarraySum.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"calc-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "calc",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target calc",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/calc.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64/libcalc.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "11499953367130847980"
+		},
+		"pitch-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "pitch",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target pitch",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Dpitch_EXPORTS -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/jni/pitch.c",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/cmake/debug/obj/x86_64/libpitch.so",
+			"toolchain" : "11499953367130847980"
+		},
+		"testC-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "testC",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target testC",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64   -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/testC.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64/libtestC.a",
+			"toolchain" : "11499953367130847980"
+		},
+		"testD-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "testD",
+			"buildCommand" : "/Users/KeisukeNishizawa/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64 --target testD",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64   -I../../../../src/main/jni -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/src/main/cpp/testD.cpp",
+					"workingDirectory" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/.externalNativeBuild/cmake/debug/x86_64/libtestD.a",
+			"toolchain" : "11499953367130847980"
+		}
+	},
+	"toolchains" : 
+	{
+		"11499953367130847980" : 
+		{
+			"cCompilerExecutable" : "/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/KeisukeNishizawa/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

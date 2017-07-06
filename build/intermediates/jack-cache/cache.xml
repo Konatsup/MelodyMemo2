@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/c512172b9da884c46aebfd2f25f8f7da8e19ef39/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-32e4fbf66a15ff64ad8cb4766caacb055879f37f.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.0.1-e69d0ecc2bba11de7601ad32e3ff565443a34368.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/15126ade30cfd1ebd6744432054e4567bb1a5259/output/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-43461a1b502a0e6908ea74d04eb029a9b490f653.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/libs/midi.jar"
+        revision="25.0.1"
+        sha1="b448976c4ce591cd5ce3620021b3fd589610f9c1">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/midi-66c342512d5ee63d1ffe76dded6cc99e15ca84b7.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/6a01c85cdab95dfb5be5b8e104e3546311e21ee9/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c38b0401cc00802047c76f4e9d197e4f1c563b98.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/b7f996d275ee01c7fc86a136046344d02b2e8b0a/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-50c24c1d96b70e6c13b6213b668f5b6a462b03a8.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/6a01c85cdab95dfb5be5b8e104e3546311e21ee9/output/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-736df68ec43e54105c3cd44961154113df8052c8.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/7909d605c153ce37e47965caba2e085389f6519b/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-458b1e343aa1e1171e6b730a003f240c92837619.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/1d106be9400a23e2c347aa34b1b973192e2e627d/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-1981112acbfbfe1a2d49ce06a1fb0e6763e84340.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/15126ade30cfd1ebd6744432054e4567bb1a5259/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-a24317519899f57ee209a5a84c799b43e3ba07fe.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/ad7a3394795fc176d9bd112fa336e404e937d16e/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6877f5a3a6d6c253a6d53163e5febce18afc24ee.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/765ff56a22143e0bf35667b3532265367f112018/output/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-a7f09e0b67ba075f1479b7aa479b915a3450ff85.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/1d106be9400a23e2c347aa34b1b973192e2e627d/output/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-55a02979170cc9633bca35ceadf0728df032a936.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/928f84dda37386360b897b711bbd29797beca7fb/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f8e3d0ed60c7727198045c29a7216aa21cd8bd46.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/928f84dda37386360b897b711bbd29797beca7fb/output/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-25.0.1-c7fe6e6d9cca60878f642b02e3b3efdbdace3a15.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/765ff56a22143e0bf35667b3532265367f112018/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b2ab15ae3b78564a81603052e0089c9a18643095.jar" />
+    </item>
+    <item
+        jar="/Users/KeisukeNishizawa/.android/build-cache/73b4fd2d709ff28518a0b562b15c44e328172e5d/output/jars/classes.jar"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/KeisukeNishizawa/Documents/LiT/android_LiT/Projects/MelodyMemo/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-52f7f455e09729e357e01be0a2ca354187f829c7.jar" />
+    </item>
+
+</items>

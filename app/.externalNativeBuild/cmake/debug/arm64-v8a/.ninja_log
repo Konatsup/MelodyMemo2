@@ -1,0 +1,13 @@
+# ninja log v5
+0	193	0	CMakeFiles/pitch.dir/src/main/jni/pitch.c.o	d1f3a25aba606119
+193	268	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libpitch.so	3abd3e36f6b0cc85
+1	63	0	CMakeFiles/arraySum.dir/src/main/jni/arraySum.c.o	48e721026513cdd3
+1	76	0	CMakeFiles/calc.dir/src/main/jni/calc.c.o	665ff9b9016d045a
+76	136	0	libcalc.a	29d0ecc08e4c85d1
+63	136	0	libarraySum.a	659d291d1dc9ea5b
+1	306	0	CMakeFiles/testC.dir/src/main/cpp/testC.cpp.o	b3fa626f0afb3706
+4	307	0	CMakeFiles/testD.dir/src/main/cpp/testD.cpp.o	e2f0e2932808aa84
+307	337	0	libtestC.a	87e92a6ea6e9ab14
+308	337	0	libtestD.a	f6b54f1ea4065f43
+337	550	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	b85da47ee102fb2c
+550	799	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	a291854cd1ba8b81
