@@ -11,3 +11,15 @@
 534	644	0	libtestD.a	bca42f906bec77e
 644	959	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	274717312c624b5d
 959	1292	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	ac9a090d65b5ae7a
+0	203	0	CMakeFiles/pitch.dir/src/main/jni/pitch.c.o	beba156cf4eefec9
+204	305	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libpitch.so	716f3ea6a3b7bb57
+0	69	0	CMakeFiles/arraySum.dir/src/main/jni/arraySum.c.o	6287d70a22eef489
+1	71	0	CMakeFiles/calc.dir/src/main/jni/calc.c.o	9fe28d9ffc51789c
+71	152	0	libcalc.a	cac876be27846d59
+69	152	0	libarraySum.a	e3f8df7c07bb80e7
+1	311	0	CMakeFiles/testC.dir/src/main/cpp/testC.cpp.o	d38de080c507a873
+3	312	0	CMakeFiles/testD.dir/src/main/cpp/testD.cpp.o	5aab11f74e58000f
+312	341	0	libtestD.a	bca42f906bec77e
+311	344	0	libtestC.a	8df78d3aa8f68236
+344	481	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	274717312c624b5d
+481	680	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	ac9a090d65b5ae7a

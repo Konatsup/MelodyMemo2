@@ -11,3 +11,15 @@
 394	425	0	libtestD.a	304b75b815e6b12c
 425	626	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9390843931f00936
 626	905	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so	73cfb9c90cd7feb8
+0	172	0	CMakeFiles/pitch.dir/src/main/jni/pitch.c.o	31e1351adb409a90
+172	205	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libpitch.so	1686c1463c4e707d
+1	136	0	CMakeFiles/arraySum.dir/src/main/jni/arraySum.c.o	6c3dc0ff24d8395
+6	138	0	CMakeFiles/calc.dir/src/main/jni/calc.c.o	eb469300eeccf113
+136	170	0	libarraySum.a	1510db1c00100e2c
+138	171	0	libcalc.a	e3b2913c34d72924
+8	326	0	CMakeFiles/testC.dir/src/main/cpp/testC.cpp.o	cfbc15977341d5f8
+9	339	0	CMakeFiles/testD.dir/src/main/cpp/testD.cpp.o	608ff365edfd16f8
+326	350	0	libtestC.a	51dd917d1f1c1046
+339	361	0	libtestD.a	304b75b815e6b12c
+361	506	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9390843931f00936
+506	702	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so	73cfb9c90cd7feb8

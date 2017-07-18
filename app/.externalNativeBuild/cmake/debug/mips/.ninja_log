@@ -11,3 +11,15 @@
 307	332	0	libtestD.a	b986252c04b2b48b
 332	498	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	79408dc600141d64
 498	713	0	../../../../build/intermediates/cmake/debug/obj/mips/libnative-lib.so	f929918d836fb280
+0	263	0	CMakeFiles/pitch.dir/src/main/jni/pitch.c.o	cf6b731e93a3518a
+263	337	0	../../../../build/intermediates/cmake/debug/obj/mips/libpitch.so	fa9da61deadf506e
+0	137	0	CMakeFiles/arraySum.dir/src/main/jni/arraySum.c.o	945a5220db040121
+1	152	0	CMakeFiles/calc.dir/src/main/jni/calc.c.o	5b8fd44cae688d7
+152	224	0	libcalc.a	4e99317dea879a8e
+137	224	0	libarraySum.a	c695237e70c52c50
+2	318	0	CMakeFiles/testC.dir/src/main/cpp/testC.cpp.o	535b169cdfe7f5b9
+3	319	0	CMakeFiles/testD.dir/src/main/cpp/testD.cpp.o	d8bd13929ff6eefa
+318	341	0	libtestC.a	f4c07f991bca52e3
+319	341	0	libtestD.a	b986252c04b2b48b
+341	483	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	79408dc600141d64
+483	721	0	../../../../build/intermediates/cmake/debug/obj/mips/libnative-lib.so	f929918d836fb280

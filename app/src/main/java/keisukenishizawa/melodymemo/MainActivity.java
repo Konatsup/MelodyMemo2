@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     int strSize,m,s;
     Time time;
     public String filePath= Environment.getExternalStorageDirectory() + "/MelodyMemo/waves/"+filename;
-    public String filePathMidi = Environment.getExternalStorageDirectory() + "/MelodyMemo/sample15.mid";
+    public String filePathMidi = Environment.getExternalStorageDirectory() + "/MelodyMemo/sample20.mid";
     public double[] pitchStr;
     public int a,v1,v2;
     public int sum = 2;
@@ -123,11 +123,11 @@ public class MainActivity extends AppCompatActivity {
 
        // TextView tv = (TextView) findViewById(R.id.sample_text);
        // tv.setText(testC());
-         tv2 = (TextView) findViewById(R.id.sample_text2);
-        tv2.setText(stringFromJNI());
+      //   tv2 = (TextView) findViewById(R.id.sample_text2);
+       // tv2.setText(stringFromJNI());
 
 
-      //  sumMM();
+      //  sumMM();で
 
         initAudioRecord();
 
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        // 停止ボタンのクリックイベントを設定
+     /*   // 停止ボタンのクリックイベントを設定
         stop.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
+*/
        /*record.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
                     rec.release();
                     stop.setVisibility(View.GONE);
                     play.setVisibility(View.VISIBLE);
-                    //pause.setVisibility(View.VISIBLE);
+                    pause.setVisibility(View.VISIBLE);
 
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -458,7 +458,7 @@ public void midiMake() {
     int value = 0; //60個分連続で同じ音階が入ってるか確かめる変数
     int midiDataSize = pitchDataSize/_framesize;
     double natural = 440.0;
-    int sizeValue = 15;
+    int sizeValue = 60;
     //A4は69
     int channel = 0;
     int velocity = 100; //固定で100
@@ -466,7 +466,10 @@ public void midiMake() {
     long duration = 0;
     long tick = 0;   //長さ
     int d_count = 0;  //duration Count
-    int median;//中央値
+    int median = 10;//中央値
+    int err_count = 0;
+    final int midiMax = 89;
+    int[] pitchCount = new int[midiMax]; //
 
     long tickSum4 = 0;
     long tickSum8 = 0;
@@ -481,87 +484,102 @@ public void midiMake() {
         if (pitchSTR2[i] == 0.0) {  //ピッチが0のとき
             pitchSTR3[i] = 0;
         } else {
-            pitchSTR3[i] = (int) (12 * (Math.log(pitchSTR2[i] / natural) / Math.log(2)) + 69);
+            pitchSTR3[i] = (int) (12 * (Math.log(pitchSTR2[i] / natural) / Math.log(2)) + 69.5);//69.5の理由は四捨五入のため
         }
+
     }
 
+
+
+
+int tmp_count = 0;
     //Tickから1/32音符の周期で分割
     for (int i = 0; i < midiDataSize; i++) {
 
         continue_flg = true;
-        value = pitchSTR3[i * _framesize];
-
+        //value = pitchSTR3[i * _framesize];
+        Arrays.fill(pitchCount, 0);
 
         for (int j = 0; j < _framesize; j++) {
 
-            if (value != pitchSTR3[i * _framesize + j]) {
-                continue_flg = false; //連続で60回(60Tick分)続いていないと判定
-            }
-
             value = pitchSTR3[i * _framesize + j];
+
+            pitchCount[value]++;
+
+
+        }
+
+        int max = 0; //音の数の最大値
+        int mode = 2;//最頻値の音の高さ
+
+        for (int j = 0; j < midiMax; j++) {
+            if(pitchCount[j] > max) {
+                max = pitchCount[j]; //countの数
+                mode = j;
+            }
         }
 
 
-        if (continue_flg == false) {
-            pitchSTR4[i] = 0;
-        } else {
-            pitchSTR4[i] = value; //1/32音符(BPM120時)の挿入
-        }
-
+         pitchSTR4[i] = mode; //1/32音符(BPM120時)の挿入
 
     }
 
+/*
+
+    for (int i = 0; i < midiDataSize; i++) {
+        sample = sample + ": " + String.valueOf(pitchSTR4[i]);
+    }
+   // tv2.setText(sample);
+
+
     //
     for (int i = 1; i < midiDataSize; i++) {
-
 
         if (pitchSTR4[i] >0){ //次のピッチの値を確認してからinsertNoteする
 
             if (pitchSTR4[i] > pitchSTR4[i - 1]) {
                 if (pitchSTR4[i-1] > 0) {
-                    noteTrack.insertNote(channel, pitchSTR4[i-1], velocity, tick, duration); //ノートの挿入
-                    midiLength[tick_count++] = length_count;
+                    midiLength[note_count++] = length_count;
                 }
-
                 //リセット
-                d_count = 0; //
-                tick = i * sizeValue; //スタート地点の指定
-                duration = ++d_count * sizeValue; //最低の長さを指定
+                length_count = 0; //
 
             } else if (pitchSTR4[i] < pitchSTR4[i - 1]) {
-                noteTrack.insertNote(channel, pitchSTR4[i-1], velocity, tick, duration);
-                tickSTR[tick_count++] = tick;
+                midiLength[note_count++] = length_count;
 
-                d_count = 0;
-                tick = i * sizeValue;//スタート地点の指定
-                duration = ++d_count * sizeValue;//最低の長さを指定
+                length_count = 0;
 
             } else { //pitchSTR4[i-1]==pitchSTR4[i]
                 length_count++;
-//                duration = ++d_count * sizeValue;
             }
 
         }else if (pitchSTR4[i] == 0 && pitchSTR4[i] < pitchSTR4[i - 1]) {  //ノートが切れたとき
-            noteTrack.insertNote(channel, pitchSTR4[i - 1], velocity, tick, duration);
-            midiLength[tick_count++] = length_count;
+            midiLength[note_count++] = length_count;
             length_count = 0;
         }
 
     }
+*/
+  //      Arrays.sort(midiLength); //長さのソート
+  /*  if(midiLength[note_count / 2] != 0) {
+        median = midiLength[note_count / 2]; //中央の長さをとる
+    }else{
+        median = midiLength[note_count*3/4]; //中央の長さをとる
+    }
+*/
+/*
+  for(int i = 0; i < note_count;i++) {
+      tv2.setText(midiLength[i]);
+  }
 
+*/
 
-//        sample = sample + ": " +String.valueOf(pitch);
-    //      tv2.setText(sample);
-        Arrays.sort(midiLength); //長さのソート
-        median = midiLength[midiDataSize/2]; //中央の長さをとる
-
-
-    for (int i = 0; i < midiDataSize; i++) {
+/*    for (int i = 0; i < midiDataSize; i++) {
         if(pitchSTR4[i])
     }
+*/
 
         for (int i = 1; i < midiDataSize; i++) {
-
 
             if (pitchSTR4[i] >0){ //次のピッチの値を確認してからinsertNoteする
 
@@ -597,7 +615,7 @@ public void midiMake() {
     }
 
 
-        for(int i = 0; i < pitchDataSize; i++){
+    //    for(int i = 0; i < pitchDataSize; i++){
 
            /* if(pitchSTR2[i]==0.0) {  //ピッチが0のとき
                 pitch = 0;
@@ -651,7 +669,7 @@ public void midiMake() {
             }
 */
 
-        }
+       // }
 //        Log.d("tickCount",""+tick_count);
 
       /*  for(int j = 0; j < tick_count-1;j++) {
@@ -687,7 +705,7 @@ public void midiMake() {
         //クォンタイズ機能
         //テンポの指定ができるように
 
-        tempo.setBpm(120);
+        tempo.setBpm(180);
 
         tempoTrack.insertEvent(ts);
         tempoTrack.insertEvent(tempo);
